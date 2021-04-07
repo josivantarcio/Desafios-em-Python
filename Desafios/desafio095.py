@@ -39,4 +39,3 @@ while True:
                     print(f'>>>   {x+1}ª partida fez {i["golsPartidas"][x]} gols')
                 print(f"Total:============== {i['totalGols']}")
 print('FIM')
-    
