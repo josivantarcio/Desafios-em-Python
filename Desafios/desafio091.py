@@ -15,8 +15,3 @@ print('     == Ranking ==')
 for i, v in enumerate(rk):
     sleep(1)
     print(f'{i+1}ºLugar,{v[0]} tirou {v[1]}')
-
-
-
-
-

@@ -22,7 +22,6 @@ for c, i in enumerate(boletim):
             situacao = ('\033[1;33mRecuperação\033[m')
         elif media < 5:
             situacao = ('\033[1;31mReprovado\033[m')
-
     print(f'{c:<4}{i[0]:<12}{media:<11}{situacao:>10}')
 while True:
     f = int(input('Deseja ver a nota de qual aluno? (999 p/ Sair)'))

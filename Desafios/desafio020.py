@@ -6,5 +6,3 @@ for x in range(n):
     nome.append(n)
 shuffle(nome)
 print(nome)
-
-

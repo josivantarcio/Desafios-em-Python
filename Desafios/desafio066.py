@@ -6,4 +6,3 @@ while True:
     soma += n
     contador += 1
 print(f'A soma deu {soma} e foram {contador} numeros digitados')
-

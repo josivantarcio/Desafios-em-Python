@@ -12,6 +12,3 @@ while mais != 0:
     print()
     mais = int(input('Quantos Termos voce quer mostrar a mais? '))
 print(total)
-
-
-

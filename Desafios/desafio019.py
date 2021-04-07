@@ -1,5 +1,4 @@
 from random import choice
-
 q = int(input('quantidade de alunos? '))
 nome = []
 for i in range(q):

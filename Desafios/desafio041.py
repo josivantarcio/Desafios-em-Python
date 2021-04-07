@@ -1,9 +1,7 @@
 from datetime import date
-
 ano = int(input('Digite o ano de nascimento: '))
 anoCorrente = date.today().year
 idade = anoCorrente - ano
-
 if(idade <= 9):
     print('Atleta \033[1;34mMirim')
 elif(idade <= 14):

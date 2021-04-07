@@ -7,14 +7,11 @@ while True:
         if eJogador in 'par' or eJogador in 'impar':
             break
     nJogador = int(input('Digite um numero: '))
-
     soma = cpu + nJogador
-
     if soma % 2 == 0:
         resultado = 'par'
     else:
         resultado = 'impar'
-
     if eJogador == resultado:
         vitoria += 1
     else:

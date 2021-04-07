@@ -20,7 +20,6 @@ while True:
             break
     if(i in 'Nn'):
         break
-
 print(f'{somaIdade} Pessoas com mais de 18 anos;\n'
       f'{somaHomem} Total de Homem cadastrado;\n'
       f'{somaMulher} Total de Mulher abaixo de 20 anos.')

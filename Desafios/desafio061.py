@@ -5,4 +5,3 @@ while cont != 10:
     print(ptermo,end=' ')
     ptermo += razao
     cont += 1
-

@@ -7,4 +7,3 @@ mixer.music.load('10_Eu_Jamais_Serei_o_Mesmo_Onde_Quer_Que_For_Irei_Acústico.mp
 mixer.music.play(0)
 input()
 event.wait()
-

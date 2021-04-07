@@ -1,5 +1,4 @@
 valores = list()
-
 for i in range(5):
     n = int(input('Digite um valor: '))
     if i == 0 or n > valores[-1]:

@@ -19,5 +19,3 @@ while menu != 5:
         n1 = int(input('Digite número 1: '))
         n2 = int(input('Digite número 2: '))
 print('FIM')
-
-

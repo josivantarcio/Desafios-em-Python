@@ -12,5 +12,3 @@ elif idade > 19:
     tempo = idade - 19
     print('\033[1;33mPassou do Tempo! Já se passaram {} anos'.format(tempo))
 print('Seu ano foi/será em {}'.format(ano+18))
-
-

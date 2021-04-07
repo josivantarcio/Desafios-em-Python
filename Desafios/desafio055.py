@@ -10,5 +10,4 @@ for i in range(1, 6):
             pesoMaior = peso
         if peso < pesoMenor:
             pesoMenor = peso
-
 print('O Maior peso: {}\nO Menor peso: {}'.format(pesoMaior, pesoMenor))

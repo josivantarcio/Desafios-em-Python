@@ -5,4 +5,3 @@ if cidadeq[0] == 'santo':
     print('A cidade {}, começa nome de Santo! '.format(cidade))
 else:
     print('A cidade {}, não inicia com nome de santo {}!'.format(cidade, cidadeq[0]))
-

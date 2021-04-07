@@ -16,7 +16,6 @@ print('(3)...',end='')
 time.sleep(0.5)
 print('eee JÁ!!!\n')
 time.sleep(1)
-
 wj = 0
 wc = 0
 while jogador != 9:

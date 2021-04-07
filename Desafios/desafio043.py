@@ -12,4 +12,3 @@ elif(imc >= 30.0 and imc < 40.0):
 else:
     print('Obesidade Mórbida')
 print('{:.2f}'.format(imc))
-
