@@ -1,0 +1,6 @@
+nome = input('Digite nome completo ')
+nome = nome.title()
+nome = nome.split()
+cont = len(nome)
+print(nome[0],end=' ')
+print(nome[cont-1])
