@@ -16,7 +16,7 @@ while True:
         if stp in 'sn':
             break
         else:
-            print('ERRO! Favor Digitar "S" ou "N" ')
+            print('\033[1;31mERRO! Favor Digitar "S" ou "N"\033[m ')
     if stp == 'n':
         break
 print('=' * 56)
@@ -34,7 +34,7 @@ while True:
             k += 1
             if nJogador == k:
                 print("=" * 35)
-                print(f"Historico do Jogador {i['nome']}")
+                print(f"Historico do Jogador \033[1;34m{i['nome']}\033[m")
                 for x in range(i['quantPartidas']):
                     print(f'>>>   {x+1}ª partida fez {i["golsPartidas"][x]} gols')
                 print(f"Total:============== {i['totalGols']}")
