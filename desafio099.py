@@ -1,17 +1,16 @@
 def valores(i):
     cont = len(i)
-    
     for j in i:
         print(j, end=' ')
-    print(f'Forem informados {cont} numeros!')
+    print(f'Forem informado(s) {cont} número(s)!')
     print(f'O Maior é {max(i)}')
     
 
 from random import randint
 #main
-numeros = []
-for i in range(6):
-    n = randint(1,9)
-    numeros.append(n)
-    valores(numeros)
-        
+numLista = []
+numeros = randint(1,9)
+for i in range(numeros):
+    n = randint(0,100)
+    numLista.append(n)
+valores(numLista)        
