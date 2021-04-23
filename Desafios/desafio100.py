@@ -1,6 +1,7 @@
 from random import randint
 def sortear(x):
     """Recebe os numeros inteiros do programa principal e coloca dentro de uma lista.
+    by: Josevan Oliveira josivantarcio@gmail.com
 
     Args:
         x (int): n
