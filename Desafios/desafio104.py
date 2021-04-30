@@ -4,7 +4,7 @@ def leiaInt(msn):
     Ex: n = leiaInt('Digite um n: ')
 
     Args:
-        msn (string): get the data in text format and push in the funcion ''leiaInt()'' for to be valided. sorry english! ;)
+        msn (string): get the data in text format and push in the funcion ''leiaInt()'' for to be valided. sorry my english! ;)
 
     Returns:
         integer: after the text be valided for integer, the value return to the variable and right after is print.
