@@ -1,11 +1,14 @@
-def aumentar(n):
-    return n + (n * 0.10)
+def aumentar(n, p=0):
+    print( f'O valor de {n} com acrescimo de {p}% é: {n + (n * p / 100)}')
 
-def diminuir(n):
-    return n - (n * 0.15)
+
+def diminuir(n, p=0):
+    print(f'O valor de {n} com desconto de {p}% é: {n - (n * p / 100)}')
+
 
 def dobro(n):
-    return n * 2
+    print(f'O dobro de {n} é: {n * 2}')
+
 
 def metade(n):
-    return n / 2
+    print(f'O metade de {n} é: {n / 2}')
