@@ -1,7 +1,7 @@
 import moeda
 num = float(input('Digite um valor R$: '))
 var = int(input('Variação: '))
-moeda.aumentar(num, var)
-moeda.diminuir(num, var)
-moeda.metade(num)
-moeda.dobro(num)
+print(moeda.aumentar(num, var))
+print(moeda.diminuir(num, var))
+print(moeda.metade(num))
+print(moeda.dobro(num))
