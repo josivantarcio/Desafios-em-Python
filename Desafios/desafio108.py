@@ -1,5 +1,5 @@
 #Um melhor desenvolvimento deste exercício, está no desafio109.py
-import moeda
+from utilidadesCeV import moeda
 num = float(input('Digite um valor R$: '))
 var = int(input('Variação: '))
 print(f'O valor de {moeda.moeda(num)} com acrescimo de {var}% é igual a: {moeda.moeda(moeda.aumentar(num,var))}')
