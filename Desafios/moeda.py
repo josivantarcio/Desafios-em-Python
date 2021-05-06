@@ -101,7 +101,7 @@ def dizimo(n=0, br=False):
 
 
 def resumo(n=0, a=0, r=0):
-    """Emite um relatorio de todas as funcoes criadas agora
+    """Emite um relatorio de todas as funcoes criadas nos exercicios até agora.
 
     Args:
         n (int, optional): Valor principal para calcular. Defaults to 0.
