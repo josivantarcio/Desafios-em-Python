@@ -98,3 +98,21 @@ def dizimo(n=0, br=False):
         return v
     else:
         return moeda(v)
+
+
+def resumo(n=0, a=0, r=0):
+    """Emite um relatorio de todas as funcoes criadas agora
+
+    Args:
+        n (int, optional): Valor principal para calcular. Defaults to 0.
+        a (int, optional): Percentual de acrescimo. Defaults to 0.
+        r (int, optional): Percentual de reducao. Defaults to 0.
+    """
+    print('='*35)
+    print(f'RESUMO de \033[33m{moeda(n)}\033[m'.center(40))
+    print('='*35)
+    print(f'Aumento de {a}%: \t{aumentar(n,a,True)}')
+    print(f'Reducao de {r}%: \t{diminuir(n,r,True)}')
+    print(f'O Dobro: \t\t{dobro(n,True)}')
+    print(f'A Metade: \t\t{metade(n,True)}')
+    print(f'O Dizimo: \t\t{dizimo(n,True)}')

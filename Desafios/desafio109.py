@@ -1,3 +1,4 @@
+#Um melhor desenvolvimento deste exercício, está no desafio110.py
 import moeda
 num = float(input('Digite um valor R$: '))
 var = int(input('Variação: '))
